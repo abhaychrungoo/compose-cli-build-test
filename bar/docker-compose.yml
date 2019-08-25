@@ -1,0 +1,7 @@
+---
+version: '3'
+services:
+  bar:
+    build: 
+      context: ../
+      dockerfile: bar/Dockerfile
